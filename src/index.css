@@ -1,0 +1,8 @@
+@import "tailwindcss";
+.btn{
+  @apply bg-blue-600 text-white px-4 py-2 rounded disabled:bg-gray-400;
+}
+.card{
+  @apply bg-white p-4 rounded shadow;
+}
+.input{@apply border rounded p-2;}
